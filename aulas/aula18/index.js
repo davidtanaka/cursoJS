@@ -1,0 +1,1 @@
+ objetos, n entendi NamedNodeMap
