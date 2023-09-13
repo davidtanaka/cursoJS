@@ -45,4 +45,4 @@ break;
 
 
 
-console.log(diaSemana, diaSemanaTexto)
+console.log(diaSemana(), diaSemanaTexto)

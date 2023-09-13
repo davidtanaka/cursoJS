@@ -32,7 +32,7 @@ function getDiaSemanaTexto(diaSemana){
       return diaSemanaTexto;
 }   }
 
-function getNomemes(numeroMes){
+function getNome(numeroMes){
     let nomeMes;
 
     switch (numeroMes) {
@@ -70,7 +70,7 @@ function criaData(data) {
     const numeroMes = data.getMonth();
 
     const nomeDia = getDiaSemanaTexto(diaSemana)
-    const nomeMes = getNomemes(numeroMes);
+    const nomeMes = getNome(numeroMes);
 
     return (`${nomeDia}, ${data.getDate()} de ${nomeMes}` + ` de ${data.getFullYear()} ${data.getHours()}:${data.getMinutes()}`);
 }
