@@ -19,6 +19,6 @@ function Produto(nome, preço, estoque) {
         }
     });
 }
-const p1 = new Produto('camiseta', 20, 3);
+const p1 = new P    roduto('camiseta', 20, 3);
 p1.estoque = 'O valor que eu quero'
 console.log(p1.estoque)
